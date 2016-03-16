@@ -31,8 +31,6 @@
 .portfolio-logo {
   background: url(../images/name-logo.png) 50% no-repeat;
   background-size: cover;
-  /*font-family: 'Oswald', sans-serif;
-  font-size: 160px;*/
   height: 100px;
   width: 367px;
   margin: auto auto 10px;
@@ -80,7 +78,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: rgb(255,64,129);
+  background-color: rgb(83,109,254);
   left: 15%;
 }
 
