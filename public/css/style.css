@@ -166,4 +166,51 @@ img.article-image {
 footer {
   background-image: url(../images/footer-background.png);
   background-size: cover;
+  font-size: 16px;
+  color: white;
 }
+
+.mdl-mini-footer {
+  color: white;
+}
+
+.mdl-mini-footer__left-section {
+  margin-left: 20%;
+}
+
+.contact-follow-info-banner {
+  text-decoration: underline;
+  margin-bottom: 6px;
+}
+
+.mdl-mini-footer__right-section {
+  margin-right: 20%;
+}
+
+.linkedin-logo {
+  background: url(../images/linkedin-logo.png) 50% no-repeat;
+  background-size: cover;
+  height: 37px;
+  width: 40px;
+}
+
+.github-logo {
+  background: url(../images/github-logo.png) 50% no-repeat;
+  background-size: cover;
+  height: 37px;
+  width: 37px;
+}
+
+.facebook-logo {
+  background: url(../images/facebook-logo.png) 50% no-repeat;
+  background-size: cover;
+  height: 37px;
+  width: 37px;
+}
+
+/*.twitter-logo {
+  background: url(../images/twitter-logo.png) 50% no-repeat;
+  background-size: cover;
+  height: 45px;
+  width: 45px;
+}*/
