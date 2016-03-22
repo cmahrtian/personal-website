@@ -163,6 +163,11 @@ img.article-image {
   margin: auto;
 }
 
+button.mdl-button {
+  display: block;
+  margin: 12px auto 0;
+}
+
 footer {
   background-image: url(../images/footer-background.png);
   background-size: cover;
