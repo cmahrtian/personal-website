@@ -1,3 +1,5 @@
+/*HEADER*/
+
 .portfolio-header {
   position: relative;
   background-image: url(../images/header-bg.jpg);
@@ -50,7 +52,7 @@
 
 .portfolio-navigation-row  .mdl-navigation {
   text-align: center;
-  max-width: 900px;
+  max-width: 500px;
   width: 100%;
 }
 
@@ -85,6 +87,28 @@
 .portfolio-card .mdl-card__title {
   padding-bottom: 0;
 }
+
+/*DOWNLOAD RESUME*/
+
+.resume-button {
+  position: relative;
+  width: 170px;
+  margin: 12px auto 0;
+}
+
+button.mdl-button {
+  position: relative;
+  display: block;
+  /*margin: 12px auto 0;*/
+}
+
+/*PORTFOLIO*/
+
+.project-display {
+  width: calc(50% - 16px);
+}
+
+/*BLOG*/
 
 .portfolio-blog-card-full-bg {
   background: url(../images/example-blog03.jpg) center / cover;
@@ -158,15 +182,14 @@ img.article-image {
   width: 100%;
 }
 
+/*CONTACT PAGE*/
+
 .portfolio-contact form {
   max-width: 550px;
   margin: auto;
 }
 
-button.mdl-button {
-  display: block;
-  margin: 12px auto 0;
-}
+/*FOOTER*/
 
 footer {
   background-image: url(../images/footer-background.png);

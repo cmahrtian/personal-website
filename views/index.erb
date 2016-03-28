@@ -18,11 +18,13 @@
 
     <main class="mdl-layout__content">    
 
-    <a href="/assets/mahr_CV_2016.pdf" download><button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">Download Resume</button></a>
+    <div class="resume-button">
+        <a href="/assets/mahr_CV_2016.pdf" download><button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">Download Resume</button></a>
+    </div>    
 
     <div class="mdl-grid portfolio-max-width">
         
-        <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+        <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card project-display">
             <div class="mdl-card__media">
                 <img class="article-image" src=" images/dinner-and-movie.png" border="0" alt="">
             </div>
@@ -30,14 +32,19 @@
                 <h2 class="mdl-card__title-text">Dinner And A Movie</h2>
             </div>
             <div class="mdl-card__supporting-text">
-                A single-page application designed to streamline the process of users selecting nearby movie theaters/showtimes and making adjacent meal plans.
+                Single-page application designed to streamline the process of users selecting nearby movie theaters/showtimes and making adjacent meal plans
+                <ul>
+                    <li>App framework constructed using an Express.js-based blueprint for the server and two open-source Node.js libraries/packages (<b>showtimes</b> and <b>googleapis</b>)</li>
+                    <li>Functionality guided by Ajax- and JSON-powered API calls to aforementioned Node packages based on location specified by user</li>
+                    <li>Clean and elegant HTML/CSS design applied to page using Google’s Material Design library</li>
+                </ul>
             </div>
             <div class="mdl-card__actions mdl-card--border">
                 <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://dinner-and-movie.herokuapp.com">Explore The App</a>
             </div>
         </div>
         
-        <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+        <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card project-display">
             <div class="mdl-card__media">
                 <img class="article-image" src=" images/admissions-portal.png" border="0" alt="">
             </div>
@@ -45,14 +52,19 @@
                 <h2 class="mdl-card__title-text">Admissions Portal</h2>
             </div>
             <div class="mdl-card__supporting-text">
-                Application page for aspiring General Assembly students, complete with separate portals for admissions officers and instructors to track students through the interview process.
+                Application page for aspiring General Assembly students, complete with separate portals for admissions officers and instructors to track students through the interview process
+                <ul>
+                    <li>Created user dashboards customized to students, admissions officers and instructors using Ruby on Rails, specifically RESTful routing and user authentication/password encryption</li>
+                    <li>CRUD abilities granted to all users via ActiveRecord access to a PostgreSQL database</li>
+                    <li>Implemented ActionMailer to notify applicants of application submission and account creation</li>
+                </ul>
             </div>
             <div class="mdl-card__actions mdl-card--border">
                 <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://admissions-portal.herokuapp.com">Explore The App</a>
             </div>
         </div>
         
-        <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+        <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card project-display">
             <div class="mdl-card__media">
                 <img class="article-image" src=" images/pats-chat.png" border="0" alt="">
             </div>
@@ -60,14 +72,19 @@
                 <h2 class="mdl-card__title-text">Pats Chat</h2>
             </div>
             <div class="mdl-card__supporting-text">
-                User-friendly, interactive chat room modeled after New England Patriots subreddit.
+                User-friendly, interactive chat room modeled after the New England Patriots subreddit
+                <ul>
+                    <!-- <li>Utilized core Sinatra principles to design chat room home page and sub-pages for topics and posts</li> -->
+                    <li>Allowed creation of individual user profiles, complete with BCrypt authentication of passwords</li>
+                    <li>Maintained database of comments made and upvotes/downvotes cast using PostGreSQL concepts</li>
+                </ul>
             </div>
             <div class="mdl-card__actions mdl-card--border">
                 <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://forum-patschat.herokuapp.com">Explore The App</a>
             </div>
         </div>
         
-        <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+        <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card project-display">
             <div class="mdl-card__media">
                 <img class="article-image" src=" images/tic-tac-toe.png" border="0" alt="">
             </div>
@@ -75,7 +92,11 @@
                 <h2 class="mdl-card__title-text">Star Wars Tic-Tac-Toe</h2>
             </div>
             <div class="mdl-card__supporting-text">
-                2-player web version of tic-tac-toe with "Star Wars: The Force Awakens" theme.
+                2-player web version of tic-tac-toe with "Star Wars: The Force Awakens" theme
+                <ul>
+                    <li>Developed functionality and incorporated game theory/scenarios using JavaScript/jQuery</li>
+                    <li>Created captivating user experience (both PC and mobile-friendly) using HTML and CSS</li>
+                </ul>
             </div>
             <div class="mdl-card__actions mdl-card--border">
                 <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://rawgit.com/cmahrtian/star-wars-tic-tac-toe/master/project1/index.html">Explore The App</a>
